@@ -1,0 +1,19 @@
+- The functions in the graph x1(t) and x2(t) are even and odd Respectively
+- A function is called even if f(x)= f(-x)
+- A function is called even if f(x)= -f(-x)
+- The result expected for x1(t) which is even is that the imaginary part of all coefficients will be 0 and for the real parts the value for
+  ak and a-k will be same magnitude and sign.
+- And the result expected for x2(t) which is odd is that the real part of all coefficients will be 0 and for the imaginary parts the value for
+  ak and a-k will be same in magnitude but opposite in sign.
+
+- For understanding the below points we make use of the property that the product of :
+	1) Even function * Even function = Even Function
+	1) Odd function * Odd function = Even Function
+	1) Even function * Odd function = Odd Function
+- The above will be useful to understand the analysis equation of Fourier Series
+
+- This is because in the analysis equation when an Even fucntion is integrated from -T1 to T1 then it is equal to 2 times the real part of integration from 0 to T1
+  and for the imaginary part when the integral in split 2 parts i.e., from -T1 to 0 and 0 to T1 then they evaluate to same values but of opposite magnitude and hence they add up to 0
+
+- Now for the fourier of a odd function the intergation from -T1 to T1 is again split into 2 parts -T1 to 0 and 0 to T1 and here the real parts obtained the 2 integrals is equal in magnitude
+  but opposite in sign so the here the real parts sums up to 0.

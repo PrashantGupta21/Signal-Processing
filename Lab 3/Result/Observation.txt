@@ -1,0 +1,15 @@
+3.2
+-- visual comparison of reconstructed signals shows that sinc interpolation is closest to the continuous time sigmal, followed by linear method interp1, and at last previous method interp1. This is due to decreasing order respectively, compared to orginal signal.
+-- the MAE bar graph attached shows that sinc interpolation has lowest maximum absolute error, then interp1 linear and finally interp 1 previous. This matches our visual comparison. 
+-- (optional) the pchip method interp1 seems to work well with the given function.
+
+
+3.3
+-- The t_samples vector will be -1:0.1:1 (where Ts = 0.1 second).
+-- As the Sampling interval is decreased from 0.5 to 0.05 the number of ripples increases but the magnitude of ripples decreases and the graph approaches
+   a pure triangular pulse with base from -1 to 1 and height of 1.
+
+3.4
+-- Since Nyquist Rate = 2*f_max hence for cos(5πt) (frequency = 2.5 hertz) the Nyquist rate = 2*2.5 = 5 Hertz.
+-- As the Sampling interval is increased from 0.1 to 0.4 then the frequency of the reconstructed signal also decreases and the graph deviates from the
+   ideal graph.

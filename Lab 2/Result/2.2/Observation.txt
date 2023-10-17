@@ -1,0 +1,7 @@
+- The fourier coefficients of the Output Signals is the Multiplication of the Fourier coefficient and the Impulse Response of frequency corresponding to that coefficient
+- The periodicity of the Input Signal will remain same as the Input Since an LTI System does not change the periodicity of a signal
+(b)
+   - When the cutff frequency is changed to 0.5 then the output becomes the x-axis since there is only 1 frequency in the Signal(i.e., 1) but since 1 > 0.5 hence
+     it gets filtered
+(d)
+   - The filter acts like a non-ideal Low Pass Filter since as frequency increases the impulse response for that frequency decreases

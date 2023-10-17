@@ -1,0 +1,16 @@
+(b) The sqaure pulse function is an even funtion so we observe the real frequency spectrum and
+    imaginary part is zero. The absolute graph is the modulus of frequency spectrum, and phase 
+    graph showing the angle shift of that frequency.
+
+
+(c) The variation in time verify the time shift property of fourier transform :- 
+    x(at)⟷(1/|a|)*X(ωa), where 'a' is some constant.
+    The graph for T=1 has lower peak amplitude and lesser number of peaks, while the graph
+    for T=4 has higher peak amplitude and higher number of peaks compared to the graph of T=2.
+
+(d) The cos(t) even function has an even fourier transform, and the complex function exp(1i*t)
+    has a real fourier transform coefficient, with offset peak at ω = 1.
+
+(e) The triangular pulse can be represented as the convolution of two identical rectangular waves,
+    and this can be verified by the convolution property of fourier transform :-
+    x(t)∗y(t)⟷(1/2π)*X(ω).Y(ω), where x(t) and y(t) are identical square wave from [-1 1] of step 1.
